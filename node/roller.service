@@ -1,0 +1,11 @@
+[Unit]
+Description=Roller Pool
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/roller.sh
+
+User=root
+
+[Install]
+WantedBy=multi-user.target

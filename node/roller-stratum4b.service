@@ -1,0 +1,11 @@
+
+[Unit]
+Description=roller-stratum4b
+
+[Service]
+Type=simple
+ExecStart=/home/roller/cryptopools.info-pools/build/bin/open-callisto-pool /home/roller/cryptopools.info-pools/node/configs/stratum4b.json
+
+[Install]
+WantedBy=multi-user.target
+
