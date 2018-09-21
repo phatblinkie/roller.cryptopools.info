@@ -3,7 +3,7 @@ import config from '../config/environment';
 
 function selectLocale(selected) {
   // FIXME
-  let supported = ['en', 'ar-sa', 'en-us'];
+  let supported = ['en', 'ar-sa', 'en-us', 'vi-vn'];
   const language = navigator.languages[0] || navigator.language || navigator.userLanguage;
 
   let locale = selected;
@@ -46,6 +46,7 @@ export default Ember.Route.extend({
      let intl = this.get('intl');
      this.set('languages', [
       { name: intl.t('lang.arabic'), value: 'ar-sa'},
+      { name: intl.t('lang.vietnamese'), value: 'vi-vn'},
       { name: intl.t('lang.english'), value: 'en-us'}
     ]);
    },

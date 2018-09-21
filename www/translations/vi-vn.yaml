@@ -1,0 +1,159 @@
+general:
+  direction: ltr
+calculator:
+  title: Bạn sẽ kiếm được bao nhiêu?
+  close: Thoát
+menu:
+  home: Tramg chủ
+  help: Trợ giúp
+  calculator: Lợi nhuận ước tính
+  pool_blocks: Khối
+  payments: Thanh toán
+  miners: Thợ mỏ
+  about: Giới thiệu
+  i18n:
+    about: giới thiệu
+    help: trợ giúp
+  language: ngôn ngữ
+
+lang:
+  vietnamese: tiếng Việt
+  english: English
+
+home:
+  min_payout_threshold: Ngưỡng thanh toán nhỏ nhất
+  payouts_run: mỗi {interval}.
+  payout_scheme_detail: Kế hoạch thanh toán theo thời gian thực PPLNS.
+  miners_online: Các thợ mỏ đang trực tuyến
+  pool_hashrate: Tốc độ của hố đào
+  pool_fee: Pool Phí
+  last_block_found: Khối vừa được tìm thấy
+  network_difficulty: Độ khó của mạng lưới
+  network_hashrate: Tộc độ của mạng lưới
+  blockchain_height: Độ giãn nở của chuỗi khối
+  current_round_variance: Phương sai hiện tại
+  query_history: Thống kê và Lịch sử thanh toán của bạn
+  input:
+    enter_your_wallet_address: Nhập ví của bạn vào
+  button:
+    lookup: Tìm kiếm
+  help:
+    minimal: Tối giản
+  settings:
+    difficulty: (độ khó {diff} tỷ)
+    help: Bấm vào để yêu cầu trợ giúp
+    title: Thợ đào {hashes} MH/s
+    stratum_mining: Khu vực khai thác
+    commands:
+      windows: Windows
+      smos: Đào kiểu đơn giản
+      windows_instruction: Thêm cái này vào file bat của bạn
+      smos_instruction: Thêm cái này vào trong nhóm máy đào mới của bạn
+
+account:
+  immature:
+    balance: Số dư chưa xác nhận
+    description: Số dư đang đợi xác nhận bởi khối.
+  pending:
+    balance: Số dư đang đợi xác nhận
+    description: Số coin đang đợi để thanh toán.
+  current: Thanh toán hiện tại
+  last_share_submitted: Lượt share mới nhất
+  online: Các thợ mỏ đang trực tuyến
+  hashrate: Tốc độ
+  earnings:
+    miner: Lợi nhuận trong 1 ngày (trung bình 3 giờ)
+    worker: Lợi nhuận / ngày (trung bình)
+  blocks:
+    found: Các khối đã tìm thấy
+  total:
+    payments: Tổng các thanh toán
+    paid: Đã được thanh toán
+  round_share: Số vòng share của bạn
+  round_share_description: Phần trăm cổ phần trong vòng share hiện tại.
+  epoch_switch: Chuyển Epoch
+  workers: Thợ mỏ
+  payouts: Thanh toán
+
+  your_workers: Thợ mỏ
+  server: Máy chủ
+  difficulty: Độ khó
+  last_share: Lần cuối nhìn thấy
+  short_average: gần đúng, thời gian ngắn
+  short_average_abbrv: 30 phút
+  long_average: chính xác, thời gian dài
+  long_average_abbrv: 3 giờ
+  no_workers_online: Không có thợ mỏ nào đang trực tuyến
+  notice: Chú ý
+  notice_html: Tỷ lệ băm trung bình của bạn sẽ được điều chỉnh khéo léo cho đến khi bạn có phần chia sẻ để thực hiện cửa sổ ước tính.<br/>Có 2 cửa sổ, dài và ngắn, cái đầu tiên. tương ứng với thời gian 30 phút, còn cửa sổ dài tương ứng với thời gian là 3 giờ.<br/>Các thợ mỏ bị treo (hỏng) sẽ được làm sáng lên trong bảng nếu như chúng không đóng góp chia sẻ tương ứng với 1/2 của cửa sổ ngắn, vì thế bạn có thể thực hiện bảo trì giàn đào của mình một cách tốt nhất.
+  json_api_url: URL API JSON thống kê hàng loạt của bạn
+
+payout:
+  latest_payouts: Thanh toán mới nhất của bạn
+  time: Thời gian
+  txid: Tx ID
+  amount: Số lượng
+  no_payouts_yet: Chưa được thanh toán
+
+block:
+  pool_rewards: Hố đào luôn trả tiền thưởng khối đầy đủ bao gồm cả phí TX và phần thưởng uncle.
+  pool_notice:
+    html: Khối trưởng thành yêu cầu <em style="text-decoration:underline">up to</em> <span class="label label-success">{success}</span> khối. Thường sẽ ít hơn.
+  blocks: Khối
+  immature: Chưa trưởng thành
+  new: Khối mới
+  orphan: Mồ côi
+  no_matured_blocks_yet: Chưa có khối trưởng thành nào
+  reward: Phần thưởng
+  height: Độ giãn nở
+  hash: Tốc độ
+  time_found: Thời gian tìm được
+  variance: Phương sai chia sẻ (Shares/Diff)
+  matured: Khối đã trưởng thành
+  immature_blocks: Khối chưa trưởng thành
+  no_immature_blocks_yet: Không có khối chưa trưởng thành nào
+  no_new_blocks_yet: Chưa có khối mới
+  recently_found_blocks: Khối vừa được tìm thấy
+
+luck:
+  blocks: Khối
+  shares_diff: Shares/Diff
+  uncle_rate: Uncle Rate (tỷ lệ may mắn)
+  orphan_rate: Orphan Rate (tỷ lệ kém may)
+
+payments:
+  pay_tx: Hố đào luôn trả phí tx từ túi riêng của nó từ bây giờ.
+  total_payments_sent: Tất cả các thanh toán đã gửi
+  latest_payouts: Đợt thanh toán mới nhất
+  time: Thời gian
+  amount: Số lượng
+  address: Địa chỉ
+  txid: Tx ID
+  no_payouts_yet: Chưa được thanh toán
+
+miners:
+  total_hashrate: Tổng tốc độ của hố đào
+  total_miners: Tất cả thợ mỏ
+  login: Đăng nhập
+  hashrate: Tốc độ
+  last_beat: Lần đào được gần đây nhất
+  no_miners: Không có thợ mỏ nào
+  miners: Thợ mỏ
+
+wallet:
+  dapp_html: <a href="https://github.com/roller-project/mist-wallet-roller/releases">https://github.com/roller-project/mist-wallet-roller/releases</a>
+  online_html: <a href="http://wallet.roller.today/">http://wallet.roller.today/</a> Ví online
+
+errors:
+  header: API thống kê tạm thời bị gián đoạn
+  message: Thông thường đây chỉ là sự cố và việc khai thác không bị ảnh hưởng.
+
+links:
+  blockExplorerLink: 'http://explorer.roller.today:3000'
+  blockExplorerLink_tx: 'http://explorer.roller.today:3000/tx/'
+  blockExplorerLink_uncle: 'http://explorer.roller.today:3000/block/'
+  blockExplorerLink_block: 'http://explorer.roller.today:3000/block/'
+  blockExplorerLink_address: 'http://explorer.roller.today:3000/addr/'
+
+footer:
+  copyrights: '&copy; Việt hoá bởi <a href="https://cryptopools.info" target="_blank"> Cryptopools.info</a>'
