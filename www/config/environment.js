@@ -33,7 +33,7 @@ module.exports = function(environment) {
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 15.0,
-      BlockReward: 9,
+      BlockReward: 7,
       Unit: 'ROL',
 
     }
