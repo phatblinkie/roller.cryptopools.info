@@ -12,12 +12,13 @@ menu:
   miners: Thợ mỏ
   about: Giới thiệu
   i18n:
-    about: giới thiệu
-    help: trợ giúp
+    about: about
+    help: help
   language: ngôn ngữ
 
 lang:
   vietnamese: tiếng Việt
+  arabic: ﻉﺮﺒﻳ
   english: English
 
 home:
